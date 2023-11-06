@@ -1,0 +1,106 @@
+/* MyReactCSS.css */
+body {
+  background-color: #00191b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #333;}
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #85118f;
+    padding: 1rem;
+    border-bottom: 3px solid #15008a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 5px rgb(2, 49, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+
+form {
+background-color: rgb(193, 186, 255);
+padding: 30px;
+border: 9px solid #20297986;
+border-radius: 10px;
+max-width: 800px;
+margin: auto;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-top: 10px;
+color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea,
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"] {
+width: 96%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #7c01f0;
+border-radius: 5px;
+font-size: 16px;
+}
+
+input[type="file"] {
+display: block;
+}
+
+textarea {
+resize: vertical;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+display: flex;
+align-items: grid;
+margin-right: 10px;
+}
+
+input[type="submit"] {
+background-color: #2b29a5;
+color: #000000;
+border: none;
+padding: 15px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+}
+
+/* Disperse fieldsets */
+form fieldset {
+border: 1px solid rgba(33, 32, 121, 0.753);
+border-radius: 10px;
+margin: 20px;
+padding: 10px;
+max-width: 800px;
+}
+h1 {
+  text-align: center;
+  color: #4e4caf;
+  font-size: 2em;
+  margin: 20px 0;
+}
